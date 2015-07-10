@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:400,700);
+
+body {
+  background-image: url('houseparty.jpg');
+  background-size: cover;
+  font-family: 'Signika', helvetica, sans-serif;
+  color: #84271e;
+}
+
+header {
+  width: 35%;
+  background-color: #e74c3c;
+  border-radius: 10px;
+  float: right;
+  margin-right: 1%;
+}
+
+h1 {
+  font-size: 5em;
+  width: 50%;
+  float: left;
+}
+
+button {
+  width: 40%;
+  height: 130px;
+  float: left;
+  font-size: 2em;
+  color: #3498db;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  width: 300px;
+}
+
+#pilgrim {
+  position: absolute;
+  bottom: 0;
+}
+
+#puppeteer {
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+#gagnam {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+}
+
+#film {
+  position: absolute;
+  bottom: 200px;
+  z-index: -1;
+  left: 250px;
+}
+
+#bouncer {
+  position: absolute;
+  bottom: 90px;
+  right: 100px;
+  z-index: -2;
+}
+
+#adventure {
+  position: absolute;
+  bottom: 250px;
+  left: 500px;
+}
+
+#pusheen {
+  position: absolute;
+  bottom: 0;
+  left: 250px;
+  z-index: 2;
+}
+
+#gangnam {
+  position: absolute;
+  bottom: 20px;
+  left: 500px;
+  z-index: 3;
+}
+
